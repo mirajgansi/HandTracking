@@ -42,6 +42,7 @@ class handDetector():
                         cv2.circle(img, (cx, cy), 5, (255, 0, 255), cv2.FILLED)
         return lmList
 
+#def fingersUp()
 
 def main():
     cap = cv2.VideoCapture(0)
